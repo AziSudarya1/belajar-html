@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag HEADING pada HTML</title>
+
+    <style>
+        *{  
+            margin: 0;
+            padding: 0;
+            font-family: 'montserrat';
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: burlywood;
+        }
+        .parent{
+            text-align: center;
+            margin: 34px;
+        }
+        .child1{
+            text-align: justify;
+            padding: 12px 78px;
+        }
+        .child2 .tittle{
+            text-align: center;
+        }
+        .child2 ol{
+            display: flex;
+            flex-direction: column;
+            padding: 34px 0 0 100px;
+            gap: 12px;           
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1>BELAJAR PENGGUNAAN TAG HEADING PADA HTML</h1>
+    </div>
+    <div class="child1">
+        <p>Tag heading HTML (h1-h6) digunakan untuk menentukan tingkat kepentingan judul atau 
+            heading dalam suatu dokumen web. Tag h1 merupakan heading tingkat tertinggi dan paling 
+            penting, biasanya digunakan untuk judul utama halaman, sementara tag h6 adalah heading 
+            tingkat terendah, digunakan untuk subjudul atau heading yang kurang penting. Penggunaan
+            heading secara berurutan (h1, h2, h3, dan seterusnya) membantu dalam menciptakan struktur 
+            yang jelas dan hirarki informasi yang baik, yang tidak hanya memudahkan pembaca manusia 
+            tetapi juga mempengaruhi optimisasi mesin pencari (SEO). Heading juga meningkatkan aksesibilitas, 
+            karena pembaca layar dapat menavigasi konten dengan lebih efisien. Dengan demikian, penggunaan tag
+            h1-h6 yang tepat sangat penting dalam pembuatan halaman web yang terstruktur dengan baik dan ramah 
+            pengguna.</p>
+    </div>
+    
+    <div class="child2">
+        <h1 class="tittle">Contoh penggunaan tag heading pada HTML</h1>
+        <ol>
+            <li><h1>Ini adalah contoh ukuran tag H1</h1></li>
+            <li><h2>Ini adalah contoh ukuran tag H2</h2></li>
+            <li><h3>Ini adalah contoh ukuran tag H3</h3></li>
+            <li><h4>Ini adalah contoh ukuran tag H4</h4></li>
+            <li><h5>Ini adalah contoh ukuran tag H5</h5></li>
+            <li><h6>Ini adalah contoh ukuran tag H6</h6></li>
+        </ol>
+    </div>
+
+</body>
+</html>

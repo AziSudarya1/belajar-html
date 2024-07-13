@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List pada HTML</title>
+    <style>
+        *{  
+            margin: 0;
+            padding: 0;
+            font-family: 'montserrat';
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: burlywood;
+        }
+        .parent h1{
+            text-align: center;
+        }
+        .parent{
+            text-align: center;
+            margin: 34px;
+            text-align: justify;
+        }
+        .parent p{
+            padding: 24px 46px;
+        }
+        .newParent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 46px;
+            height: 350px;
+            padding: 34px;
+        }
+
+        .newParent h3{
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .newParent .child3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1>Penggunaan tag LIST pada HTML</h1>
+        <p>
+            Penggunaan tag list pada HTML sangat penting untuk mengatur dan menyusun informasi 
+            dalam format yang mudah dibaca dan dipahami. Ada dua jenis utama tag list: ordered 
+            list (<'ol'>) dan unordered list (<'ul'>). Ordered list digunakan ketika urutan item
+            penting, dengan setiap item dalam daftar diberi nomor secara otomatis oleh browser.
+            Sementara itu, unordered list digunakan ketika urutan item tidak penting, dan setiap 
+            item diberi tanda bullet sebagai penanda. Setiap item dalam daftar didefinisikan menggunakan 
+            tag <'li'>. Dengan menggunakan tag list, pengembang web dapat menciptakan struktur yang rapi 
+            dan terorganisir untuk konten seperti daftar tugas, langkah-langkah instruksi, atau poin-poin
+             penting, sehingga meningkatkan pengalaman pengguna dalam menavigasi dan memahami informasi 
+             yang disajikan di halaman web.
+        </p>
+
+        <div class="newParent">
+
+            <div class="child1">
+                <h3>Penggunaan tag 'ul' dan 'li'</h3>  
+            <ul>
+                <li>Ini contoh penggunaan tag ul dan li</li>
+                <li>Ini contoh penggunaan tag ul dan li</li>
+                <li>Ini contoh penggunaan tag ul dan li</li>
+            </ul>
+        </div>
+        
+        <div class="child2">
+            <h3>Penggunaan tag 'ol' dan 'li'</h3>  
+            <ol>
+                <li>Ini contoh penggunaan tag ol dan li</li>
+                <li>Ini contoh penggunaan tag ol dan li</li>
+                <li>Ini contoh penggunaan tag ol dan li</li>
+            </ol>
+        </div>
+        
+        <div class="child3">
+            <h3>Penggunaan tag 'ol' dan 'li' dengan <br> order menggunakan type "A"</h3>  
+            <ol type="A">
+                <li>Ini contoh penggunaan tag ol dan li</li>
+                <li>Ini contoh penggunaan tag ol dan li</li>
+                <li>Ini contoh penggunaan tag ol dan li</li>
+            </ol>
+        </div>
+        
+    </div>
+        <p>
+            Selain menggunakan angka ("1") dan huruf besar ("A") untuk penomoran, HTML menyediakan beberapa
+            opsi lain untuk ordered list (<'ol'>). Dengan atribut `type`, Anda dapat mengatur gaya penomoran
+            daftar sesuai kebutuhan. Misalnya, Anda dapat menggunakan huruf kecil ("a", "b", "c") dengan
+            `type="a"`, atau huruf besar Romawi ("I", "II", "III") dengan `type="I"`, serta huruf kecil
+            Romawi ("i", "ii", "iii") dengan `type="i"`. Penggunaan berbagai jenis penomoran ini memungkinkan 
+            fleksibilitas dalam desain dan presentasi konten, sehingga dapat disesuaikan dengan gaya dan konteks 
+            halaman web yang berbeda. Dengan berbagai opsi penomoran, ordered list di HTML dapat digunakan secara 
+            efektif untuk menciptakan struktur hierarkis yang jelas dan informatif, meningkatkan keterbacaan dan 
+            organisasi informasi.
+        </p>
+    </div>
+</body>
+</html>
